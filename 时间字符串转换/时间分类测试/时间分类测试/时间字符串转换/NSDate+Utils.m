@@ -1,9 +1,9 @@
 //
-//  NSDate+Utils.m
-//  BloodSugar
+//  VXXNSDate+Utils.m
+//  VolitationXiaoXing
 //
-//  Created by PeterPan on 13-12-27.
-//  Copyright (c) 2013年 shake. All rights reserved.
+//  Created by Volitation小星 on 16/9/8.
+//  Copyright © 2016年 VolitationXiaoXing All rights reserved.
 //
 
 #import "NSDate+Utils.h"
@@ -717,12 +717,4 @@
 + (NSString *)dbFormatString {
     return [NSDate timestampFormatString];
 }
-
-+ (NSDate *)dateFromYearMonthDayString:(NSString *)string{
-    
-//    NSDate
-    
-    return self;
-}
-
 @end
