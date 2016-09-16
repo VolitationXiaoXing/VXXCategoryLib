@@ -10,6 +10,7 @@
 
 @interface NSString (SandBox)
 
+//cache文件路径
 -(instancetype)filePathForCacheDirectory;
 
 -(instancetype)filePathForDocumentDirectory;
